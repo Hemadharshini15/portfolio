@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+     content="width=device-width, initial-scale=1">
+	<title> Resume Portfolio</title>
+
+	<link rel="stylesheet" href="CV Portfolio.css">
+    <script src="https://kit.fontawesome.com/7468b673ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+    		<nav>
+    			 <h3 class="logo">Portfolio</h3>
+    			<ul id="sidemenu">
+    				<li><a href="#header">Home</a></li>
+    				<li><a href="#about">About</a></li>
+    				<li><a href="#services">Certifications</a></li>
+    				<li><a href="#portfolio">Projects</a></li>
+    				<li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    			</ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    		</nav>
+
+            <div class="header-text">
+    			<p>Front-end Developer</p>
+                <h2>Hi,I'm <span>Hemadharshini</span> from Sona College of Technology Salem.I am a Front-End Developer.</h2>
+    		</div>
+    	</div>
+    	
+    </div>
+    
+<!-----  About ----->
+
+    <div id="about">
+    	<div class="container">
+    		<div class="row">
+    			<div class="about-col-1">
+    				<img src="images/background.jpg">
+    			</div>
+    			<div class="about-col-2">
+    				<h1 class="sub-title">About Me</h1>
+    				<br>
+    				<br>
+    				<p >Aspiring Software Engineer with Bachelor's degree in Information Technology. Proficiency in fronted Coding with strong foundation in HTML and CSS, JavaScript.I am able to handle multiple tasks on a daily basis.I am always energetic and eager 
+    				to learn new skills.I have experience working as part of a team and individually.
+                    </p>
+
+                    <div class="tab-titles">
+                    	<p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                    	<p class="tab-links"onclick="opentab('Projects')">Projects</p>
+                    	<p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="Skills">
+                    	<ul>
+                    		<li><span>FRONT-END DEVELOPER</span><br>Designing Webpage of frontend coding with HTML,CSS,JAVASCRIPT</li>
+
+                    		<li><span>PROBLEM SOLVING</span><br>Basic to Medium Level of Problem Solving with JAVA Language</li>
+                            <li><span>EDITING</span><br>Designing and Editing</li>
+                    	</ul>
+                    </div>
+
+                    <div class="tab-contents"id="Projects">
+                    	<ul>
+
+                    		<li><span>SMART DUSTBIN</span><br>We use  the embedded board called Arudino UNO board.In this project  we used the Servo Motor  and Ultrasonic Sensor to detect the distance of theobject.</li>
+
+                    		<li><span>HOUSE RENT WEB APPLICATION </span><br>Designing Webpage of frontend  and Backend </li>
+
+                    	    <li><span>JUCIE WEBSITE</span><br>Designing Juice Webpage using HTML CSS.</li>
+                    	</ul>
+                    </div>
+
+                   <div class="tab-contents"id="Education">
+                        <ul>
+                            <li><span> BACHELOR OF TECHNOLOGY</span><br>B.Tech-Information Technology<br>2021-2025<br>Current Percentage-75%</li>
+
+                            <li><span>XII-STANDARD</span><br>Sri Vidhya Bharati Matric Higher Secondary School<br>2019-2021<br>Percentage-82%</li>
+
+                            <li><span>X-STANDARD</span><br>Jay Matriculation Higher Secondary School<br>2018-2019<br>Percentage-74%</li>
+
+                        </ul>
+                    </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+<!----- Services ----->
+
+<div id="services">
+    <div  class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Development</h2>
+                <p>I have successfully completed Web Development course with Grade A+ from Rinex Organisation And I have gained many useful knowledge.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+             <div>
+                <h2>Introduction to IOT</h2>
+                <p>In this course I have learnt many things about IOT and successfully completed my certification with 68% from NPTEL Examination.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <h2>Google Data Analytics</h2>
+                <p>I have successfully completed Google Data Analytics Courses in Coursera Platform with new knowledge in Data Analytics.
+
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <h2>Programming in Java</h2>
+                <p>In this course I have learnt many concepts in Java and successfully completed my certification with 58% from NPTEL Examination.</p>
+                <a 
+                href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Portfolio------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects </h1>
+        <div class="project-list">
+            <div>
+                <h2>Juice Website</h2>
+                <p>In this Juice Website Customers can able to check the availability of Jucie Flavors and Snacks, then they can place the orders which they want. </p>
+            </div>
+
+            <div>
+                <h2>Smart Dustbin</h2>
+                <p>Here We use the embedded board called Arduino UNO board.In this project We used the Servo motor and ultrasonic sensor to detect the distance of the object. </p>
+            </div>
+
+            <div>
+                <h2>House Rent Web Application</h2>
+                <p>In this project We developed a user-friendly house rent Web application using HTML,CSS,JavaScript for Fron-end and JavaScript framework for backend. This application allows users to easily search for rental properties,view property details and submit inquries.</p>
+            </div>   
+        </div>
+    </div>
+</div>
+
+ 
+<!----- Contact----->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>dharshinih085@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9500695291</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <br>
+                <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"placeholder="Your Email" required>
+                    <textarea name="Message"rows="7"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+       <p>This portfolio website was created by Hemadharshini Thank you for watching!...</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents)
+             {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sideMenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sideMenu.style.right = "0";
+        }
+        function closemenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxD1TsWZJ0w1bEOgU6_Si6_ylKEvUhX691MCP2d4ySbyFIzwVZs834SaD3IziQ3zUglZw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Done.."
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
